@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspaceFilter version="1.0">
+    <filter root="/apps/gamestory">
+        <exclude pattern="/apps/gamestory/install.*"/>
+        <exclude pattern="/apps/gamestory/runmodes.*"/>
+    </filter>
+    <filter root="/etc/clientlibs/gamestory"/>
+	<filter root="/etc/designs/gamestory">
+        <exclude pattern="/etc/designs/gamestory/jcr:content.*"/>
+    </filter>
+</workspaceFilter>
